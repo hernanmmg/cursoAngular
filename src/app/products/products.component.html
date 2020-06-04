@@ -1,3 +1,4 @@
-<div *ngFor="let product of products" class="product-grid">
-  <app-product [product]="product"></app-product>
+<app-header></app-header>
+<div class="product-grid">
+  <app-product *ngFor="let product of products" [product]="product"></app-product>
 </div>
